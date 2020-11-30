@@ -1,0 +1,17 @@
+{
+    "name": "jollywizard/hf-sessionbackup",
+    "description": "Higher Forces: Export session data to text files.",
+    "type": "wp-cli-package",
+    "homepage": "",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "~2.2"
+    ,   "symfony/yaml": "^4.3"
+    }
+}
