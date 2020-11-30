@@ -1,0 +1,17 @@
+{
+    "name": "jollywizard/hf-cleanup",
+    "description": "Higher Forces - Normalize session custom posts.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/jollywizard/hf-cleanup",
+    "license": "MIT",
+    "authors": [{"name":"James Arlow","email":"james.arlow@gmail.com"}],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^2.2.0",
+        "symfony/yaml": "^4.3"
+    }
+}
