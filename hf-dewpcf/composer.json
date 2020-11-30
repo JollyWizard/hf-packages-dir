@@ -1,0 +1,16 @@
+{
+    "name": "jollywizard/hf-dewpcf",
+    "description": "Higher Forces: Convert all custom meta keys to new syntax.",
+    "type": "wp-cli-package",
+    "homepage": "",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^2.2"
+    }
+}
